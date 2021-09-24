@@ -16,6 +16,7 @@ Small Alpine Docker image with [jsonnet](https://jsonnet.org/) and [jsonnet-bund
 
 # Installed Packages
 
+* [jsonnet](https://pkgs.alpinelinux.org/packages?name=jsonnet&branch=v3.14)
 * [make](https://pkgs.alpinelinux.org/packages?name=make&branch=v3.14)
 
 

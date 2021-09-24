@@ -13,7 +13,9 @@ LABEL maintainer="hajo@ventx.de" \
       org.opencontainers.image.source="https://github.com/ventx/docker-jsonnet-jb" \
       org.opencontainers.image.vendor="ventx"
 
-RUN apk add --no-cache make=4.3-r0
+RUN apk add --no-cache \
+    make=4.3-r0 \
+    jsonnet=0.17.0-r0
 
 COPY --from=builder /go/bin/jb /usr/local/bin/jb
 
