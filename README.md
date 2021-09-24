@@ -1,6 +1,6 @@
 # jsonnet-jb
 
-Small Alpine Docker image with [jsonnet](https://jsonnet.org/) and [jsonnet-bundler](https://github.com/jsonnet-bundler/jsonnet-bundler) (jb) to use for e.g. [kubernetes-mixin](https://github.com/kubernetes-monitoring/kubernetes-mixin).
+Small Ubuntu Docker image with [jsonnet](https://jsonnet.org/) and [jsonnet-bundler](https://github.com/jsonnet-bundler/jsonnet-bundler) (jb) to use for e.g. [kubernetes-mixin](https://github.com/kubernetes-monitoring/kubernetes-mixin).
 
 
 ## Docker Hub
@@ -10,14 +10,14 @@ Small Alpine Docker image with [jsonnet](https://jsonnet.org/) and [jsonnet-bund
 
 # Docker base image
 
-* OS: [Alpine Linux](https://alpinelinux.org/)
-* Version: 3.14
+* OS: [Ubuntu Linux](https://hub.docker.com/_/ubuntu)
+* Version: 21.04 ("hirsute")
 
 
 # Installed Packages
 
-* [jsonnet](https://pkgs.alpinelinux.org/packages?name=jsonnet&branch=v3.14)
-* [make](https://pkgs.alpinelinux.org/packages?name=make&branch=v3.14)
+* [jsonnet](https://packages.ubuntu.com/hirsute/jsonnet)
+* [make](https://packages.ubuntu.com/hirsute/make)
 
 
 # Installed Packages (go binaries)
